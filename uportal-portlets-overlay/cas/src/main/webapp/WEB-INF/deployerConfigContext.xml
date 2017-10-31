@@ -131,6 +131,11 @@
 				<bean
 					class="org.jasig.portal.cas.authentication.handler.support.PersonDirAuthenticationHandler" 
                     p:user-password-dao-ref="userPasswordDao" />
+
+				<bean class="org.jasig.cas.adaptors.ldap.FastBindLdapAuthenticationHandler" >
+			        	<property name="filter" value="uid=%u,cn=user,dc=rsad,dc=edu" />
+			        	<property name="contextSource" ref="contextSource" />
+			        </bean>
 			</list>
 		</property>
         
@@ -234,4 +239,13 @@
 	      </list>
 	    </property>
   	</bean>
+
+
+    <bean id="contextSource" class="org.springframework.ldap.core.support.LdapContextSource">
+        <property name="urls">
+    	    <list>
+                <value>ldaps://ldap.ringling.edu/</value>
+            </list>
+        </property>
+    </bean>
 </beans>
