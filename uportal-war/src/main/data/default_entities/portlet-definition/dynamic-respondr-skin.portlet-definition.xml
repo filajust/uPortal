@@ -57,4 +57,9 @@
         <value></value>
     </portlet-preference>
     -->
+
+    <portlet-preference>
+        <name>PREFdynamicSkinName</name>
+        <value>ringlingSkin</value>
+    </portlet-preference>
 </portlet-definition>

@@ -994,7 +994,8 @@
                                 <!-- Do we need to list skins individually
                                      because we have common/ as a sibling of the
                                      skins?  Do we need to move that directory? -->
-                                <include>media/skins/respondr/defaultSkin/skin.xml</include>
+				<!-- JJ changed to ringlingSkin -->
+                                <include>media/skins/respondr/ringlingSkin/skin.xml</include>
                             </includes>
                             <sharedJavaScriptDirectory>media/skins/respondr</sharedJavaScriptDirectory>
                         </configuration>
