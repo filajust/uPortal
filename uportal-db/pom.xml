@@ -71,11 +71,13 @@
             <artifactId>sqljdbc4</artifactId>
             <version>${mssql.version}</version>
         </dependency>
+	-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.version}</version>
         </dependency>
+	<!--
         <dependency>
             <groupId>com.oracle</groupId>
             <artifactId>ojdbc6_g</artifactId>

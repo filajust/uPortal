@@ -203,6 +203,7 @@
         <logback.version>1.1.2</logback.version>
         <mail.version>1.4.5</mail.version>
         <mockito.version>1.9.5</mockito.version>
+	<mysql.version>5.1.9</mysql.version>
         <net.oauth.version>20100527</net.oauth.version>
         <objenesis.version>2.1</objenesis.version>
         <org.json.version>20090211</org.json.version>
