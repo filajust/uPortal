@@ -45,33 +45,51 @@
 
  /** 
  // Mobile first partitioning strategy for styling the nav
-@media screen {
-    @media (max-width: 768px) {
+//@media screen {
+    //@media (max-width: 768px) {
     // Styles for mobile nav and offcanvas and optional fly-out
         .portal {
             .row-offcanvas {
                 .portal-nav {}
-            }
-        }
-    }
-    @media (min-width: 769px) {
+            //}
+        //}
+    //}
+    //@media (min-width: 769px) {
     // Styles for nav and optional fly-out on desktop and large displays
-        .portal {
-            .row-offcanvas {
-                .portal-nav {}
-            }
-        }
-    }
+        //.portal {
+            //.row-offcanvas {
+                //.portal-nav {}
+            //}
+        //}
+    //}
+//}
+*/
+
+#portalPageBody #portalPageBodyColumns .portal-page-column .portal-page-column-inner .up-portlet-wrapper .up-portlet-wrapper-inner .up-portlet-titlebar {
+        background-image: none;
+}
+
+#portalCASLoginLink { //region-pre-header .up-portlet-wrapper.logout-launcher {
+	color: @color2-dark;
 }
 
 
-.up-portlet-titlebar.up-standard-chrome {
-    background-color: #eeeeee !important;
-    width: 100px;
-    //background-color: #ff9933; //@portlet-titlebar-background-color;
-    //background-image: none;
+#portalCASLoginNewLink { //region-pre-header .up-portlet-wrapper.logout-launcher {
+	color: @color2-dark;
 }
 
-.portal-logo {
-    width: 100px;
+#region-pre-header .up-portlet-wrapper.logout-launcher {
+	color: @color2-dark;
 }
+
+#portalCASLogoutLink { //region-pre-header .up-portlet-wrapper.logout-launcher {
+	color: @color2-dark;
+}
+
+//#ringlingLogo {
+//               position: fixed;
+//               top: 0px;
+//               right: 0px;
+//
+//}
+
